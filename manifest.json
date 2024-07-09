@@ -21,10 +21,18 @@
           "type": "image/gif",
           "form_factor": "wide",
           "label": "Wonder Widgets"
-        }
+        },
+        {
+          "src": "img/screenshot-2.jpeg",
+           "sizes": "450x333",
+           "type": "image/gif",
+           "form_factor": "narrow",
+           "label": "Wonder Widgets"
+         }
     ],
     "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#3E4EB8",
-    "theme_color": "#2F3BA2"
+    "theme_color": "#2F3BA2",
+    "orientation": "landscape"
   }
