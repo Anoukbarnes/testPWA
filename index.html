@@ -6,7 +6,8 @@
     <title>Document</title>
 
     <link rel="manifest" href="manifest.json">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="install" href="install.js">
+
     <script>
         // Register service worker.
     if ('serviceWorker' in navigator) {
@@ -27,7 +28,7 @@
     <meta name="theme-color" content="#2F3BA2" />
 </head>
 <header>
-    <button class="nav-link px-lg-4 px-2" id="butInstall" aria-label="Install" hidden>
+    <button class="nav-link px-lg-4 px-2" id="butInstall" aria-label="Install" >
     Installer la PWA</button>
 </header>
 <body>
